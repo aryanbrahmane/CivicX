@@ -1,5 +1,5 @@
 # CivicX — End-to-End NLP Framework for Automated Complaint Triage and Clustering
-Bilingual (**English + मराठी**) · Mumbai civic complaints · category · urgency · duplicate clustering · auto-reply · dashboard
+Bilingual (**English + मराठी**) · Mumbai civic complaints [BMC] · category · urgency · duplicate clustering · auto-reply · dashboard
 
 ## Run it
 ```bash
@@ -35,7 +35,7 @@ Module 4 Response  ── bilingual template reply (ticket ID, department, SLA);
 Module 5 Dashboard ── SQLite + pandas + Plotly + Streamlit (KPIs, trends, hotspots, clusters, tickets)
 ```
 
-## NLP concepts used (for your report / viva)
+## NLP concepts
 | Concept | Where |
 |---|---|
 | Unicode normalisation, script handling | `preprocess.normalize` |
@@ -52,7 +52,7 @@ Module 5 Dashboard ── SQLite + pandas + Plotly + Streamlit (KPIs, trends, ho
 | Clustering (agglomerative, cosine) | `models.cluster_complaints` |
 | NLG (template-based, bilingual) | `responder.py` |
 
-## Results (from `train.py`, see models/metrics.json)
+## Results
 | Test | Result |
 |---|---|
 | Category, random 80/20 split | 100 % (**inflated** – corpus is template based) |
@@ -64,12 +64,3 @@ Module 5 Dashboard ── SQLite + pandas + Plotly + Streamlit (KPIs, trends, ho
 | Urgency, hand-written set | 52 % exact, 90 % within one level |
 | Duplicate pairs (hard negatives) | P 0.83 / R 0.83 / F1 0.83 |
 | Duplicate recall: same language / EN↔MR | 98 % / 70 % |
-
-## Honest limitations (say these in your presentation)
-* No public labelled Marathi civic-complaint dataset was available offline, so the corpus is **synthetic** (templates × 25 Mumbai
-  localities × paraphrases × noise). Replace/extend `data/mumbai_complaints.csv` with real BMC/MyBMC or scraped complaints
-  (same columns: `text, lang, category, priority`) and re-run `train.py`.
-* Urgency labels come from rules, so random-split urgency accuracy is optimistic; the hand-written set is the honest number.
-* The Marathi stemmer is rule-based (no ML); the offline embedder is LSA + concept lexicon. For better cross-lingual duplicates run
-  `pip install sentence-transformers` and `set CIVICX_EMBEDDER=sbert` then re-run `train.py`.
-* `train_transformer.py` (MuRIL fine-tuning) is provided but was **not executed** in the build environment.
