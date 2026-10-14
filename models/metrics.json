@@ -1,0 +1,42 @@
+{
+  "category_model_comparison_macroF1": {
+    "TF-IDF(word) + MultinomialNB": 1.0,
+    "TF-IDF(word) + LinearSVC": 1.0,
+    "TF-IDF(word) + LogReg": 1.0,
+    "TF-IDF(word+char) + LogReg  [CivicX]": 1.0
+  },
+  "category_random_split_acc": 1.0,
+  "category_random_split_acc_en": 1.0,
+  "category_random_split_acc_mr": 1.0,
+  "category_unseen_paraphrase_acc": 0.9644886363636364,
+  "category_en_to_mr_transfer_acc": 0.9128787878787878,
+  "category_handwritten_acc": 0.9166666666666666,
+  "category_handwritten_acc_en": 0.875,
+  "category_handwritten_acc_mr": 0.9583333333333334,
+  "urgency_random_split_acc": 0.9053254437869822,
+  "urgency_random_split_macroF1": 0.9080060894543214,
+  "urgency_within_one_level": 0.9976331360946745,
+  "urgency_keyword_baseline_acc": 0.32781065088757394,
+  "urgency_unseen_paraphrase_acc": 0.6685606060606061,
+  "urgency_handwritten_model_only": {
+    "acc": 0.5208333333333334,
+    "within_one": 0.8958333333333334
+  },
+  "urgency_handwritten_model_+_rule_floor": {
+    "acc": 0.5208333333333334,
+    "within_one": 0.8958333333333334
+  },
+  "dup_cosine_only": {
+    "precision": 0.8093158660844251,
+    "recall": 0.834,
+    "f1": 0.8214725437084462
+  },
+  "dup_cosine_+_category_location_gate": {
+    "precision": 0.8294380905022377,
+    "recall": 0.834,
+    "f1": 0.831712789827973
+  },
+  "dup_cross_lingual_recall": 0.7053824362606232,
+  "dup_same_language_recall": 0.9787460148777896,
+  "cluster_ARI": 0.5764778288677004
+}

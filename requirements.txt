@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+scikit-learn>=1.3
+joblib
+matplotlib
+streamlit
+plotly
+# --- optional (better embeddings / transformer classifier) ---
+# sentence-transformers   # set CIVICX_EMBEDDER=sbert for multilingual Sentence-BERT duplicate detection
+# transformers torch datasets accelerate   # for train_transformer.py

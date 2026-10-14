@@ -1,0 +1,49 @@
+﻿text,category,priority,lang
+"Our building in Ghatkopar has not got any water since two days, kids cannot even take a bath.",Water Supply,High,en
+Tap water in Bhandup looks brown and has a strange smell.,Water Supply,High,en
+The tanker man in Chembur is charging extra money for water.,Water Supply,Medium,en
+"Light went off in Powai at 2am and has not come back, my father is on oxygen support.",Electricity,Critical,en
+"Electricity meter in my Borivali flat runs very fast, the bill has doubled.",Electricity,Low,en
+"A wire is hanging low near Dadar station after the rain, someone will get electrocuted.",Electricity,Critical,en
+"Huge pothole on the highway near Goregaon, a bike accident happened yesterday.",Roads,Critical,en
+Please repair the uneven footpath near Sion hospital.,Roads,Low,en
+"Road work at Mulund is going on for 3 months, there is dust everywhere.",Roads,Medium,en
+"Dustbins near Andheri station are not cleared, rats everywhere.",Sanitation,High,en
+The garbage truck skipped our lane in Malad today.,Sanitation,Low,en
+"Plastic is burning at the Govandi dumping ground, thick smoke and children are coughing.",Sanitation,High,en
+"Rain water entered ground floor houses in Kurla, people are stranded.",Drainage & Flooding,Critical,en
+The nala near Vikhroli station is full of plastic and will flood in monsoon.,Drainage & Flooding,Medium,en
+Sewage line is overflowing outside our society gate in Bandra.,Drainage & Flooding,High,en
+The street lamp outside my house in Juhu is off since Monday.,Street Lighting,Medium,en
+"Complete darkness on Worli sea face road at night, women are scared to walk.",Street Lighting,High,en
+Open wires and sparks from a lamp post near Dharavi bus depot.,Street Lighting,Critical,en
+BEST bus skips the stop near Colaba causeway every morning.,Public Transport,Medium,en
+Local train doors are overcrowded and a passenger fell near Kandivali this morning.,Public Transport,High,en
+The auto driver misbehaved and refused to come to Versova.,Public Transport,Low,en
+No mosquito spraying in Byculla and many people have fever.,Public Health,High,en
+"A stray dog bit a small child in Wadala, please act immediately.",Public Health,Critical,en
+The doctor has been absent in the health post at Mankhurd for a week.,Public Health,Medium,en
+"घाटकोपरमध्ये दोन दिवसांपासून नळाला पाणी नाही, लहान मुलांचे हाल होत आहेत.",Water Supply,High,mr
+"भांडुपमध्ये नळाचे पाणी गढूळ येत आहे, पिणे शक्य नाही.",Water Supply,High,mr
+चेंबूरमध्ये पाण्याचे बिल दुप्पट आले आहे.,Water Supply,Low,mr
+"पवईमध्ये रात्री दोन वाजल्यापासून वीज नाही, घरात ऑक्सिजनवर असलेले रुग्ण आहेत.",Electricity,Critical,mr
+"बोरिवलीत माझ्या घरचे वीज मीटर खूप वेगाने फिरते, बिल जास्त येत आहे.",Electricity,Low,mr
+"दादर स्थानकाजवळ पावसानंतर विजेची तार खाली लटकत आहे, धक्का लागू शकतो.",Electricity,Critical,mr
+"गोरेगावजवळ महामार्गावर मोठा खड्डा आहे, काल तिथे अपघात झाला.",Roads,Critical,mr
+"सायन रुग्णालयाजवळचा पदपथ असमान आहे, दुरुस्ती व्हावी.",Roads,Low,mr
+"मुलुंडमध्ये तीन महिन्यांपासून रस्त्याचे काम सुरू आहे, सगळीकडे धूळ आहे.",Roads,Medium,mr
+"अंधेरी स्थानकाजवळचे कचऱ्याचे डबे रिकामे केले जात नाहीत, उंदरांचा सुळसुळाट आहे.",Sanitation,High,mr
+आज मालाडमध्ये आमच्या गल्लीत कचरा गाडी आली नाही.,Sanitation,Low,mr
+"गोवंडीतील डम्पिंग ग्राउंडवर प्लास्टिक जाळले जात आहे, दाट धूर आहे, मुलांना खोकला येतो.",Sanitation,High,mr
+"कुर्ल्यात पावसाचे पाणी तळमजल्यावरील घरांमध्ये शिरले आहे, लोक अडकले आहेत.",Drainage & Flooding,Critical,mr
+"विक्रोळी स्थानकाजवळचा नाला प्लास्टिकने भरला आहे, पावसात पूर येईल.",Drainage & Flooding,Medium,mr
+वांद्र्यात आमच्या सोसायटीच्या गेटबाहेर गटार ओसंडून वाहत आहे.,Drainage & Flooding,High,mr
+जुहूमध्ये सोमवारपासून माझ्या घराबाहेरचा पथदिवा बंद आहे.,Street Lighting,Medium,mr
+"वरळी सी फेस रस्त्यावर रात्री पूर्ण अंधार असतो, महिलांना चालायला भीती वाटते.",Street Lighting,High,mr
+धारावी बस आगाराजवळ खांबाच्या तारा उघड्या असून ठिणग्या उडत आहेत.,Street Lighting,Critical,mr
+कुलाबा कॉजवेजवळ बेस्ट बस रोज सकाळी थांबा चुकवते.,Public Transport,Medium,mr
+"लोकलच्या दारात प्रचंड गर्दी असते, आज कांदिवलीजवळ एक प्रवासी पडला.",Public Transport,High,mr
+वर्सोव्याला येण्यास रिक्षाचालकाने नकार दिला आणि तो उद्धट वागला.,Public Transport,Low,mr
+"भायखळ्यात डासांची फवारणी झाली नाही, अनेकांना ताप आला आहे.",Public Health,High,mr
+"वडाळ्यात भटक्या कुत्र्याने लहान मुलाला चावा घेतला, तातडीने कार्यवाही करा.",Public Health,Critical,mr
+मानखुर्दच्या आरोग्य केंद्रात आठवडाभर डॉक्टर नाहीत.,Public Health,Medium,mr
