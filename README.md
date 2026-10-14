@@ -11,6 +11,8 @@ python -m tests.test_smoke      # sanity tests
 streamlit run app.py            # dashboard
 ```
 
+The repository also includes a seeded `civicx.db` so the dashboard shows demo data immediately on first deploy.
+
 ## Architecture
 ```
 Complaint (EN / MR / code-mixed)
